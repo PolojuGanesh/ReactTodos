@@ -1,19 +1,20 @@
-/* Write your CSS here */
 .main-container {
   background-color: #ffc2a0;
-  height: 100vh;
   background-size: cover;
-  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .sub-container {
   background-color: white;
   border-radius: 10px;
-  width: 90%;
+  width: 70vw;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .heading {
@@ -22,4 +23,54 @@
   font-weight: bold;
   color: #ff8542;
   text-align: center;
+}
+
+.titles {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.input-and-add-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.input-text {
+  outline: none;
+  border: 1px solid gray;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 30vw;
+  border-radius: 5px;
+  margin-right: 2%;
+  font-family: 'Roboto';
+}
+
+.add-button {
+  border-width: 1px;
+  border-color: #000000;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-left: 2%;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 25px;
+  }
+
+  .sub-container {
+    width: 95%;
+  }
+
+  .input-text {
+    width: 50vw;
+  }
 }

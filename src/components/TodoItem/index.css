@@ -1,11 +1,7 @@
-/* Write your CSS here */
 .list {
-  list-style-type: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
 }
 
 .heading-title {
@@ -13,7 +9,6 @@
   font-weight: 600;
   font-size: 20px;
   color: black;
-  margin-left: 150px;
 }
 
 .button {
@@ -23,6 +18,34 @@
   padding: 5px;
   color: #ff0b37;
   background-color: transparent;
-  height: 28px;
-  width: 56px;
+  cursor: pointer;
+}
+
+.edit-input {
+  outline: none;
+  border: 1px solid gray;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 30vw;
+  border-radius: 5px;
+  margin-right: 2%;
+  font-family: 'Roboto';
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+@media screen and (max-width: 767px) {
+  .heading-title {
+    font-size: 10px;
+  }
+
+  .button {
+    border-radius: 3px;
+    padding: 3px;
+  }
 }
