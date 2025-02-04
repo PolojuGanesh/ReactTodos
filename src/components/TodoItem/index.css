@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.heading-title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  margin-left: 150px;
+}
+
+.button {
+  border-width: 1px;
+  border-color: #ff0b37;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ff0b37;
+  background-color: transparent;
+  height: 28px;
+  width: 56px;
+}
